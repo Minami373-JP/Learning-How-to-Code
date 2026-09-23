@@ -50,7 +50,7 @@ public class Rpg {
         System.out.println("Your race now is: " + bold + race + reset);
 
         if (race.equals("Dark Elf")) {
-            System.out.println(bold + "You're black as fuck" + reset);
+            System.out.println(bold + "You're special elf" + reset);
         } else if (race.equals("Demon")) {
             int demonRole = random.nextInt(4);
 
